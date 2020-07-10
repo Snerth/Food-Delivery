@@ -1,0 +1,65 @@
+.cart-modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.363);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cart-modal {
+  z-index: 100000;
+  background-color: white;
+  width: 800px;
+  height: 80vh;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  font-size: 2rem;
+}
+.close-button {
+  position: relative;
+  top: -10px;
+  cursor: pointer;
+}
+button:focus {
+  outline: 0;
+}
+.cart-body {
+    height: 80%;
+    overflow-y: scroll;
+    margin-bottom: 20px;
+    border: 1px solid rgb(219, 219, 219);
+}
+.cart-footer {
+    height: 10%;
+    display: flex;
+    font-size: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cart-footer span {
+    font-weight: bold;
+}
+.confirm-order-button {
+    border: none;
+    background-color: var(--black);
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+    transition: 0.4s;
+}
+.confirm-order-button:hover {
+    background-color: rgb(51, 51, 51);
+}

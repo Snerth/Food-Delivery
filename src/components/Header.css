@@ -1,0 +1,19 @@
+.header {
+    background-color: var(--red);
+    height: 500px;
+    display: flex;
+}
+.header-left-part {
+    width: 100%;
+}
+.header-right-part::after {
+    content: '';
+    width: 100px;
+    height: 500px;
+    background-image: url('../utils/mysvgs/header\ border.svg');
+    position: absolute;
+    top: 0;
+}
+.header-right-part {
+    width: 100%;
+}

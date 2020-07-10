@@ -1,0 +1,45 @@
+.cart-item-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+.cart-item-container:not(:last-child) {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+.cart-item-header {
+    width: 110px;
+}
+.cart-item-body {
+    padding: 10px;
+    width: 100%;
+    margin-left: 20px;
+}
+.cart-item-name {
+    font-weight: bold;
+}
+.cart-item-weight {
+    color: rgb(141, 141, 141);
+}
+.cart-item-ingredients {
+    color: rgb(48, 48, 48);
+}
+.cart-body-footer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.cart-item-delete-button {
+    border: none;
+    background-color: var(--gray);
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+.cart-item-delete-button:hover {
+    background-color: rgb(125, 128, 136);
+}

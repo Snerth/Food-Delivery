@@ -1,0 +1,32 @@
+.items-section::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    background-image: url('../utils/mysvgs/food\ delivery\ item\ section\ corner.svg');
+    height: 100px;
+}
+.items-section {
+    border-radius: 10px;
+    margin-bottom: 60px;
+    background-color: var(--lightgray);
+}
+.items-section-header {
+    padding-top: 40px;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.items-section-header-name {
+    padding: 10px;
+    margin: 0px;
+}
+.items-section-body {
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.items-error {
+    font-size: 1.5rem;
+    color: var(--gray);
+}

@@ -1,0 +1,28 @@
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(100, 102, 109);
+  display: flex;
+  justify-content: center;
+}
+.carousel-image-container {
+  width: 100%;
+  height: 100%;
+}
+.carousel-image {
+  width: 100%;
+  height: 100%;
+}
+.carousel-arrows {
+  position: absolute;
+  top: 4%;
+  width: 35%;
+  height: 70%;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  cursor: pointer;
+}

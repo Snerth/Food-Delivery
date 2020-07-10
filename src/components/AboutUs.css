@@ -1,0 +1,12 @@
+.about-us {
+  padding: 60px 60px;
+  border-radius: 10px;
+  background-color: var(--lightgray);
+  display: flex;
+  margin-bottom: 60px;
+}
+.about-us-description {
+  background-color: white;
+  padding: 40px;
+  font-size: 1.6rem;
+}

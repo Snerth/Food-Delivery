@@ -1,0 +1,35 @@
+.contacts {
+  padding: 60px 60px;
+  background-color: var(--lightgray);
+  display: flex;
+  border-radius: 10px;
+  font-size: 2rem;
+  margin-bottom: 60px;
+}
+.contacts-delivery {
+  background-color: rgb(196, 196, 196);
+  padding: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-delivery div {
+  text-align: center;
+}
+.contacts-addresses {
+  padding: 40px;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contacts-addresses div {
+  text-align: center;
+}
+.address {
+  border: 3px solid var(--lightgray);
+  margin: 20px;
+  padding: 10px;
+}

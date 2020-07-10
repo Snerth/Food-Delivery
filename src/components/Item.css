@@ -1,0 +1,121 @@
+.item {
+  width: 300px;
+  margin-bottom: 40px;
+  background-color: #fcfcfc;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.item-image-container {
+  height: 350px;
+  
+}
+.item-image-container:hover .item-show-full-image {
+  z-index: 3;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.322);
+}
+.item-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.item-name {
+  font-size: 2rem;
+  text-align: center;
+  padding: 5px;
+}
+.item-ingredients {
+  color: gray;
+  margin-top: 10px;
+}
+.item-description {
+  border-top: 1px solid rgb(206, 206, 206);
+  margin: 5px 20px;
+  font-size: 1.5rem;
+  text-align: left;
+}
+.item-order-button {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 150px;
+  margin: 20px;
+  background-color: var(--red);
+  color: white;
+  transition: 0.3s;
+}
+.item-order-button:hover {
+  border-radius: 4px;
+  background-color: rgb(250, 75, 32);
+}
+.item-order-button-inactive {
+  border: none;
+  padding: 10px;
+  font-size: 1.5rem;
+  width: 150px;
+  margin: 20px;
+  background-color: rgb(168, 64, 38);
+  color: white;
+}
+.item-order-button-inactive:hover {
+  cursor: default;
+}
+.counter-and-order {
+  display: flex;
+  align-items: center;
+  margin: 0px 20px;
+}
+.counter {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  margin-left: 20px;
+  padding: 5px;
+}
+.counter-button {
+  border: none;
+  width: 40px;
+  font-size: 1.5rem;
+  background-color: var(--lightgray);
+}
+.counter-button-inactive {
+  visibility: hidden;
+}
+.counter-button-inactive:hover {
+  cursor: default;
+}
+.number-of-items {
+  width: 40px;
+  font-size: 2rem;
+  background-color: var(--lightgray);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: var(--gray);
+}
+.counter-value {
+  width: 60px;
+  font-size: 1.5rem;
+}
+.item-show-full-image {
+  height: 350px;
+  position: relative;
+  top: -350px;
+  background-color: transparent;
+  transition: 0.4s ease;
+}
+.item-show-full-image svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
